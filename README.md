@@ -6,7 +6,11 @@ A game that I made in Unity. It is unfinished but the core mechanics (combat, ma
 **Controls**
 
 Arrow Keys - Move
+
 Z,X,C - Select Spell
+
 S - Open Spell Inventory
+
 Z - Select Spell
+
   - Use Arrow keys to change spell location in inventory and press Z to move there.
