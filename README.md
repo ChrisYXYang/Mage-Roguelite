@@ -3,6 +3,10 @@ A game that I made in Unity. It is unfinished but the core mechanics (combat, ma
 
 **Working Build:** https://github.com/ChrisYXYang/Mage-Roguelite/releases/tag/build
 
+**Objective**
+
+Traverse the dungeon and defeat all enemies!
+
 **Controls**
 
 Arrow Keys - Move
