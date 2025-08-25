@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7a61d17ec9a1b41a1cc1a324f5dd0c, type: 3}
+  m_Name: Flame v3
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -2078078756, guid: 96f508ad51ef54547aeb1d8100ec0986, type: 3}
+  altSprite: {fileID: 1311563843, guid: 96f508ad51ef54547aeb1d8100ec0986, type: 3}
+  vfx: {fileID: 1563107608727984451, guid: 3e1a084293ede454d9a7d5d6945be297, type: 3}
+  damage: 15
+  range: 2
+  width: 0
+  knockback: 0
+  upgradeCost: 0
+  tier: 3
+  maxLevel: 1
+  spellType: 5
+  affliction:
+    affliction: 1
+    turns: 3
+    effect: {fileID: 9156870467517713232, guid: 487229efd981567439b041134b6576b5, type: 3}
+    appliedSpell: {fileID: 0}
+  nextLevel: {fileID: 0}

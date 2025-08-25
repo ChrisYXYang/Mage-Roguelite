@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: water
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 9e7a61d17ec9a1b41a1cc1a324f5dd0c, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sprite
+    value: 
+    objectReference: {fileID: -950966849, guid: 5a61bbd1acf7de245a656cd3c9123c11, type: 3}
+  - target: {fileID: 0}
+    propertyPath: altSprite
+    value: 
+    objectReference: {fileID: 1219671965, guid: 5a61bbd1acf7de245a656cd3c9123c11, type: 3}
+  - target: {fileID: 0}
+    propertyPath: vfx
+    value: 
+    objectReference: {fileID: 6299483343821412472, guid: d3d9fb887d3ac6a4490ade5a289113c0, type: 3}
+  - target: {fileID: 0}
+    propertyPath: damage
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: range
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: width
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: knockback
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: experience
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxLevel
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spellType
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: affliction.affliction
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: affliction.turns
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: affliction.effect
+    value: 
+    objectReference: {fileID: 5038306255920176442, guid: 07382610f9799c640ba6bd1633e3cfd2, type: 3}
+  - target: {fileID: 0}
+    propertyPath: affliction.appliedSpell
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nextLevel
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

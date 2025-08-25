@@ -224,7 +224,7 @@ public class SpellDisplay : MonoBehaviour
                     break;
 
                 case (2):
-                    activeSpellIcons[index].transform.GetChild(0).GetComponent<Image>().sprite = tier3;
+                    activeSpellIcons[index].transform.GetChild(0).GetComponent<Image>().sprite = tier2;
                     break;
 
                 case (3):
@@ -245,7 +245,7 @@ public class SpellDisplay : MonoBehaviour
                     break;
 
                 case (2):
-                    storedSpellIcons[index].transform.GetChild(0).GetComponent<Image>().sprite = tier3;
+                    storedSpellIcons[index].transform.GetChild(0).GetComponent<Image>().sprite = tier2;
                     break;
 
                 case (3):

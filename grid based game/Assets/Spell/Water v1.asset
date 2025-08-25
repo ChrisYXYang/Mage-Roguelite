@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7a61d17ec9a1b41a1cc1a324f5dd0c, type: 3}
+  m_Name: Water v1
+  m_EditorClassIdentifier: 
+  sprite: {fileID: -950966849, guid: 5a61bbd1acf7de245a656cd3c9123c11, type: 3}
+  altSprite: {fileID: 1219671965, guid: 5a61bbd1acf7de245a656cd3c9123c11, type: 3}
+  vfx: {fileID: 6299483343821412472, guid: d3d9fb887d3ac6a4490ade5a289113c0, type: 3}
+  damage: 5
+  range: 1
+  width: 3
+  knockback: 0
+  upgradeCost: 15
+  tier: 1
+  maxLevel: 0
+  spellType: 2
+  affliction:
+    affliction: 2
+    turns: 1
+    effect: {fileID: 5038306255920176442, guid: 07382610f9799c640ba6bd1633e3cfd2, type: 3}
+    appliedSpell: {fileID: 0}
+  nextLevel: {fileID: 11400000, guid: 22fc30eecc1443c4696a38164f438f42, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7a61d17ec9a1b41a1cc1a324f5dd0c, type: 3}
+  m_Name: Earth Goblin
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  altSprite: {fileID: 0}
+  vfx: {fileID: 3514392275760814101, guid: 50ef2b81eead667489bd51db7b5dd012, type: 3}
+  damage: 15
+  range: 2
+  width: 0
+  knockback: 0
+  experience: 0
+  maxLevel: 0
+  spellType: 1
+  affliction:
+    affliction: 0
+    turns: 0
+    effect: {fileID: 0}
+    appliedSpell: {fileID: 0}
+  nextLevel: {fileID: 0}
