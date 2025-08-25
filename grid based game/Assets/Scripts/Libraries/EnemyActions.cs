@@ -185,22 +185,22 @@ public class EnemyActions
                 if (difference.x < 0)
                 {
                     HorseshoeSideAttack(Vector2Int.right, enemy);
-                    return;
+                    break;
                 }
                 if (difference.x > 0)
                 {
                     HorseshoeSideAttack(Vector2Int.left, enemy);
-                    return;
+                    break;
                 }
                 if (difference.y < 0)
                 {
                     HorseshoeSideAttack(Vector2Int.up, enemy);
-                    return;
+                    break;
                 }
                 if (difference.y > 0)
                 {
                     HorseshoeSideAttack(Vector2Int.down, enemy);
-                    return;
+                    break;
                 }
                 break;
         }

@@ -22,7 +22,8 @@ public class PlayerActions
     
     public static bool CanMove(Vector2Int direction)
     {
-        if (GameManager.player.standingNode.gridX + direction.x == 9 || GameManager.player.standingNode.gridX + direction.x == 10)
+        if ((GameManager.player.standingNode.gridX + direction.x == 9 || GameManager.player.standingNode.gridX + direction.x == 10)
+            && MapManager.currentRoom.roomCleared)
         {
             if (GameManager.player.standingNode.gridY + direction.y == 10)
             {
@@ -35,7 +36,8 @@ public class PlayerActions
             }
         }
 
-        if (GameManager.player.standingNode.gridY + direction.y == 4 || GameManager.player.standingNode.gridY + direction.y == 5)
+        if ((GameManager.player.standingNode.gridY + direction.y == 4 || GameManager.player.standingNode.gridY + direction.y == 5)
+            && MapManager.currentRoom.roomCleared)
         {
             if (GameManager.player.standingNode.gridX + direction.x == 20)
             {
